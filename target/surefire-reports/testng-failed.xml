@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.titrate.testCases.TC_013_VerifyAddRole">
+        <methods>
+          <include name="addRole"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.titrate.testCases.TC_013_VerifyAddRole -->
+      <class name="com.titrate.testCases.TC_012_VerifyUnAssignCamera">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="assignCamera"/>
+        </methods>
+      </class> <!-- com.titrate.testCases.TC_012_VerifyUnAssignCamera -->
+      <class name="com.titrate.testCases.TC_010_VerifyDeleteImprest">
+        <methods>
+          <include name="deleteImprest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.titrate.testCases.TC_010_VerifyDeleteImprest -->
+      <class name="com.titrate.testCases.TC_007_VerifyDeleteUser">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="deleteUser"/>
+        </methods>
+      </class> <!-- com.titrate.testCases.TC_007_VerifyDeleteUser -->
+      <class name="com.titrate.utilities.ReadXl">
+        <methods>
+          <include name="dataReadTest"/>
+        </methods>
+      </class> <!-- com.titrate.utilities.ReadXl -->
+      <class name="com.titrate.testCases.TC_011_VerifyAssignCamera">
+        <methods>
+          <include name="assignCamera"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.titrate.testCases.TC_011_VerifyAssignCamera -->
+      <class name="com.titrate.testCases.TC_003_VerifyEditCamera">
+        <methods>
+          <include name="editCamera"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.titrate.testCases.TC_003_VerifyEditCamera -->
+      <class name="com.titrate.testCases.TC_004_VerifyDeleteCamera">
+        <methods>
+          <include name="teardown"/>
+          <include name="deleteCamera"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.titrate.testCases.TC_004_VerifyDeleteCamera -->
+      <class name="com.titrate.testCases.TC_002_VerifyAddCamera">
+        <methods>
+          <include name="addCamera"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.titrate.testCases.TC_002_VerifyAddCamera -->
+      <class name="com.titrate.testCases.TC_006VerifyEditUser">
+        <methods>
+          <include name="editUser"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.titrate.testCases.TC_006VerifyEditUser -->
+      <class name="com.titrate.testCases.TC_016_VerifyAddProduct">
+        <methods>
+          <include name="addProduct"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.titrate.testCases.TC_016_VerifyAddProduct -->
+      <class name="com.titrate.testCases.TC_005_VerifyAddUser">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="addUser"/>
+        </methods>
+      </class> <!-- com.titrate.testCases.TC_005_VerifyAddUser -->
+      <class name="com.titrate.testCases.TC_019_VerifyAssignRole">
+        <methods>
+          <include name="assignRole"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.titrate.testCases.TC_019_VerifyAssignRole -->
+      <class name="com.titrate.testCases.TC_009_VerifyEditImprest">
+        <methods>
+          <include name="editImprest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.titrate.testCases.TC_009_VerifyEditImprest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

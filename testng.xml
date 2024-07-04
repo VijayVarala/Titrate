@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.titrate.testCases.TC_006VerifyEditUser"/>
+      <class name="com.titrate.testCases.TC_007_VerifyDeleteUser"/>
+      <class name="com.titrate.testCases.TC_016_VerifyAddProduct"/>
+      <class name="com.titrate.testCases.TC_005_VerifyAddUser"/>
+      <class name="com.titrate.testCases.TC_010_VerifyDeleteImprest"/>
+      <class name="com.titrate.testCases.TC_009_VerifyEditImprest"/>
+      <class name="com.titrate.testCases.TC_011_VerifyAssignCamera"/>
+      <class name="com.titrate.testCases.TC_019_VerifyAssignRole"/>
+      <class name="com.titrate.testCases.TC_013_VerifyAddRole"/>
+      <class name="com.titrate.testCases.TC_002_VerifyAddCamera"/>
+      <class name="com.titrate.testCases.TC_012_VerifyUnAssignCamera"/>
+      <class name="com.titrate.testCases.TC_004_VerifyDeleteCamera"/>
+      <class name="com.titrate.testCases.TC_003_VerifyEditCamera"/>
+      <class name="com.titrate.utilities.ReadXl"/>
+    </classes>
+  </test>
+</suite>
